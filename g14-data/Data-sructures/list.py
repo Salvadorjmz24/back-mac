@@ -5,3 +5,5 @@ students[0] = "Juan Pablo"
 print(students[0])
 
 print(students)
+
+print(type(students))
