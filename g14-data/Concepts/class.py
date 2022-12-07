@@ -7,6 +7,10 @@ class Car:
         self.model = model
         self.year = year
         self.brand = brand
+
+    def __str__(self):
+        return f"{self.model} + {self.year} + {self.brand}"
+
 tesla = Car("S", 2022, "Tesla")
 
 
